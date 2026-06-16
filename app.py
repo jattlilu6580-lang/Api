@@ -16,7 +16,7 @@ CREDIT = {
 # Database Load
 DATA = []
 
-with open("database.json", "r", encoding="utf-8") as f:
+with open("database.csv", "r", encoding="utf-8") as f:
     reader = csv.DictReader(f)
     DATA = list(reader)
 
